@@ -305,6 +305,7 @@ nav li a {
   position: fixed;
   margin-left: 10px;
   z-index: 10000;
+  top: 10px;
 }
 
 .title_magical_object {
@@ -395,6 +396,7 @@ nav li a {
   z-index: 10000;
   background: #fff;
   border-radius: 50px;
+  display: none;
 }
 
 .mobile_nav-item.active a {
@@ -439,5 +441,9 @@ nav li a {
 
   .magical_row {
     padding: 10px;
+  }
+
+  .mobile_nav {
+    display: block;
   }
 }
