@@ -425,6 +425,10 @@ nav li a {
 
   }
 
+  .open_title_img {
+    width: 360px !important;
+  }
+
   .navbar {
     display: none;
   }
